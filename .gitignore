@@ -1,0 +1,83 @@
+node_modules/
+
+dist/
+build/
+out/
+
+.env
+.env.*
+
+.npm/
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+.venv/
+venv/
+
+build/
+dist/
+
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# ==============================
+# IDEs and Editors
+# ==============================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==============================
+# Operating System
+# ==============================
+
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Logs and Temporary Files
+# ==============================
+
+*.log
+tmp/
+temp/
+
+# ==============================
+# ML / Data Science
+# ==============================
+
+mlruns/
+wandb/
+.tensorboard/
+lightning_logs/
+
+# Large generated data (uncomment if needed)
+# data/
+# datasets/
+# models/
+# checkpoints/
+
+# ==============================
+# Secrets and Credentials
+# ==============================
+
+*.pem
+*.key
+credentials.json
+secrets.json
